@@ -4,3 +4,7 @@ _site
 .jekyll-metadata
 vendor
 .DS_Store
+_drafts
+_examples
+assets/css/hyde.css
+assets/css/poole.css
