@@ -26,11 +26,12 @@ baseurl: / # the subpath of your site, e.g. /blog
 url: "https://chrisjquinn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  chrisjquinn
+timezone: Europe/London
 
 #Determines how many posts in the pagination
 paginate: 4
 
-#A seperator for posts that are long
+#A seperator for posts so that snippets are shown on the home page
 excerpt_separator: <!-- More -->
 
 # Build settings
@@ -40,6 +41,13 @@ plugins:
   - gist
   - jekyll-paginate
 
+# Include any files that are not normally done so by the builder.
+# This is usually for dotfiles, but a folder named "_examples" is here to populate
+# the site when no posts have been written yet.
+
+#Takes an array of strings
+#incldude: []
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -48,7 +56,7 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+#exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
