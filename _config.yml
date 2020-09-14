@@ -21,17 +21,24 @@
 title: Chris J. Quinn
 email: quinn.christopherj@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello, World!
+    
 baseurl: / # the subpath of your site, e.g. /blog
 url: "https://chrisjquinn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  chrisjquinn
+
+#Determines how many posts in the pagination
+paginate: 4
+
+#A seperator for posts that are long
+excerpt_separator: <!-- More -->
 
 # Build settings
 theme: 
 plugins:
   - jekyll-feed
   - gist
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.

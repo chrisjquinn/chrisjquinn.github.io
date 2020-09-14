@@ -9,7 +9,7 @@ Standard GUI-based graphic design tools only support a limited “snap to guides
 
 Basalt is implemented as a domain-specific language (DSL), and it’s quite different from GUI-based design tools like Illustrator and Keynote. It’s also pretty different from libraries/languages like D3.js, TikZ, and diagrams. At its core, Basalt is based on constraints: the designer specifies figures in terms of relationships, which compile down to constraints that are solved automatically using an SMT solver to produce the final output. This allows the designer to specify drawings in terms of relationships like “these objects are distributed horizontally, with a 1:2:3 ratio of space between them.” Constraints are also a key aspect of how Basalt supports abstraction, because constraints compose nicely.
 
-
+<!-- More -->
 I’ve been experimenting with this concept, off and on, for the last couple years. Basalt is far from complete, but the exploration has yielded some interesting results already. The prototype is usable enough that I made all the figures in my latest research paper and presentation with it.
 
 If you want to read about the core ideas behind Basalt, take a look at the philosophy section. If you want to hear about my experience using Basalt to design real figures, skip ahead to the case studies section. If you want to see how gradient descent can be used to solve figures, go to the gradient descent section.

@@ -1,7 +1,7 @@
 /* 
 *
 *	 ________  ___  ___  ________  ___  ________           ________  ___  ___  ___  ________   ________      
-*   |\   ____\|\  \|\  \|\   __  \|\  \|\   ____\         |\   __  \|\  \|\  \|\  \|\   ___  \|\   ___  \    
+* |\   ____\|\  \|\  \|\   __  \|\  \|\   ____\         |\   __  \|\  \|\  \|\  \|\   ___  \|\   ___  \    
 *	\ \  \___|\ \  \\\  \ \  \|\  \ \  \ \  \___|_        \ \  \|\  \ \  \\\  \ \  \ \  \\ \  \ \  \\ \  \   
 *	 \ \  \    \ \   __  \ \   _  _\ \  \ \_____  \        \ \  \\\  \ \  \\\  \ \  \ \  \\ \  \ \  \\ \  \  
 *	  \ \  \____\ \  \ \  \ \  \\  \\ \  \|____|\  \        \ \  \\\  \ \  \\\  \ \  \ \  \\ \  \ \  \\ \  \ 
@@ -382,6 +382,35 @@ tbody tr:nth-child(odd) th {
 
 
 /*
+*  Continue Reading button for posts
+*/
+
+.continue-reading-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.continue-reading-link{
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  width: 100%;
+}
+
+a.continue-reading-link:hover{
+  background-color: #f5f5f5;
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+  .continue-reading-link {
+    width: 50%;
+  }
+}
+
+
+/*
  * Pagination
  *
  * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
@@ -410,6 +439,7 @@ tbody tr:nth-child(odd) th {
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
   background-color: #f5f5f5;
+  text-decoration: none;
 }
 
 @media (min-width: 30em) {
@@ -532,17 +562,18 @@ a.sidebar-nav-item:focus {
 
 /* 	Dark Mode
 *	
-*	When the user is browsing the website with a device in dark mode
+*	When the user is browsing the website with a device in dark mode.
+*	Currently tested Safari & Chrome on MacOS.
 */
 
 @media (prefers-color-scheme: dark) {
 
 	body {
-		color: #919191;
+		  color: #919191;
   		background-color: #303030;	
   	}
 
-  	h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6 {
  		color: #fff; 
  		/*Same as the sidebar*/
 	}
@@ -554,21 +585,24 @@ a.sidebar-nav-item:focus {
 	}
 
 	strong {
-	  color: #aaa;
+	  color: #ccc;
 	}
 
 	dt {
-	  color: #aaa;
+	  color: #ccc;
 	}
 
 	abbr {
-	  color: #aaa;
+	  color: #ccc;
 	}
+
+  /*Code & Gist*/
 
 	code {
 	  color: #bf616a;
 	  background-color: #404040;
 	}
+
 	pre {
 	  background-color: #404040;
 	}
@@ -582,5 +616,41 @@ a.sidebar-nav-item:focus {
 	  background-color: #404040;
 	}
 
+  /*Pagnination*/
+  .pagination {
+    color: #919191;
+  }
+
+  .pagination-item {
+    border: 1px solid #919191;
+  }
+
+  a.pagination-item:hover {
+    background-color: #404040;
+  }
+
+  /*Continue Reading*/
+  .continue-reading-link{
+    border: 1px solid #919191;
+  }
+
+  a.continue-reading-link:hover{
+    background-color: #404040;
+  }
+
+  /*Tables*/
+  table {
+    border: 1px solid #919191;
+  }
+
+  td,
+  th {
+    border: 1px solid #919191;
+  }
+
+  tbody tr:nth-child(odd) td,
+  tbody tr:nth-child(odd) th {
+    background-color: #404040;
+  }
 
 }

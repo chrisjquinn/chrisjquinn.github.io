@@ -16,6 +16,7 @@ Poole is the Jekyll Butler, serving as an upstanding and effective foundation fo
 * Related posts (time-based, because Jekyll) below each post
 * Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
 
+<!-- More -->
 ### Hyde features
 
 In addition to the features of Poole, Hyde adds the following:
