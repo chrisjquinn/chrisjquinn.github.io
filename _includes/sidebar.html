@@ -13,7 +13,11 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
+      {% if page.url == site.baseurl %}
+      <a class="sidebar-nav-item active " href="/">Home</a>
+      {% else %}
+      <a class="sidebar-nav-item" href="/">Home</a>
+      {% endif %}
 
 <!--       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a> -->
 
