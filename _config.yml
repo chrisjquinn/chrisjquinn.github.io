@@ -41,6 +41,11 @@ plugins:
   - gist
   - jekyll-paginate
 
+permalink: /:year/:month/:title/
+pagination:
+  enabled: true
+  sort_reverse: true
+
 # Include any files that are not normally done so by the builder.
 # This is usually for dotfiles, but a folder named "_examples" is here to populate
 # the site when no posts have been written yet.
