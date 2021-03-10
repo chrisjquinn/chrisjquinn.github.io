@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Resurrection an iPod classic
+title: Resurrection of an iPod classic
 ---
 
 It started out as a usual day of lockdown, working on assignments and clearing out old junk from one of the rooms of the house. Most of it was, it was surely surprising the average number of dvds in the common household. What really caught my eye was dad's *iPod Classic* in really good shape. Clearly it could power up?
@@ -22,7 +22,7 @@ With most corrupt memory, I usually try a reformat first in disk utility. What's
 
 
 ## So can't format, now what?
-Looking around the whole area, I obvioulsy found [DankPods](https://www.youtube.com/channel/UC7Jwj9fkrf1adN4fMmTkpug) for all things iPod classic related. The retro movement has now added the first generations of iPod to vinyl, film cameras and the like. Anyways, the real gem found was [iFlash](https://www.iflash.xyz): offering adapters to swap out old HDD for flash memory. It's as simple as:
+Looking around the whole area, I obviously found [DankPods](https://www.youtube.com/channel/UC7Jwj9fkrf1adN4fMmTkpug) for all things iPod classic related. The retro movement has now added the first generations of iPod to vinyl, film cameras and the like. Anyways, the real gem found was [iFlash](https://www.iflash.xyz): offering adapters to swap out old HDD for flash memory. It's as simple as:
 
 1. Get the iFlash module.
 2. Replace the hard drive with the iFlash module.
