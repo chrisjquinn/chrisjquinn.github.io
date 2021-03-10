@@ -7,17 +7,15 @@ I am in a friendship group which likes to do light-hearted pranks; removing labe
 
 Like most subscription lists and common emails ypu see, there's the iconic smiling monkey at the footer showing it was crafted by the great provider [Mailchimp](). This time, the email would persuade them into clicking what would be their *"Virtual Graduation"*, but would actually be a video on YouTube by [big man tyrone](https://www.youtube.com/channel/UCi7BsyeNmdfZa37Ep8kl2LQ).
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1Bix44C1EzY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
 <!-- More -->
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1Bix44C1EzY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+
+
 ## The Disclaimer
-
-> This was done as a simple joke to friends and has been kept within a small set of email addresses. It is *never* the intention of this post to misrepresent the university or cast any negative light. This post serves as some evidence for what capability a phisher could do with Mailchimp and what you can do in retaliation. If you have any issues with this, please contact me.
-
+<div class="message">
+	This was done as a simple joke to friends and has been kept within a small set of email addresses. It is *never* the intention of this post to misrepresent the university or cast any negative light. This post serves as some evidence for what capability a phisher could do with Mailchimp and what you can do in retaliation. If you have any issues with this, please contact me.
+</div>
 
 ## The Setup
 
@@ -41,11 +39,16 @@ Here's the catch, the **actual** graduation email from the University followed l
 This is the official email from the University:
 
 
+
 <img class="container" src="/assets/media/2021/03/06/official-email.png" alt="The official email from the university regarding graduations">
 
 And mine the day before:
 
-<img class="container" src="/assets/media/2021/03/06/phish-email.jpeg" alt="The phish email sent a day before">
+
+<!-- <img src="/assets/media/2021/03/06/phish-email-a.png" alt="The phish email sent a day before"> -->
+<!-- <img src="/assets/media/2021/03/06/phish-email-b.png" alt="The phish email sent a day before"> -->
+
+<img class="container" src="/assets/media/2021/03/06/phish-email.png" alt="The phish email sent a day before">
 
 
 You can see some clear similarities and differences; the social media icons, the slightly different logo for the University and a lack of an individual (there was no person at the end saying 'best regards' or 'yours'). For the more trained eye in security, my personal email is the biggest red flag (on purpose) to indicate false news. Plus, the long url link at the bottom isn't commonplace for professional emails. However, icons for social media on the phishing email also do take people to the legitimate sites and the section on the Alumni Network also was pulled from a web page made by the University. 
