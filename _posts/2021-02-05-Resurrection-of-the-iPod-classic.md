@@ -1,4 +1,4 @@
----
+  ---
 layout: post
 title: Resurrection of an iPod classic
 ---
@@ -10,6 +10,7 @@ It started out as a usual day of lockdown, working on assignments and clearing o
   <source 
     srcset="/assets/media/2021/02/05/sad-iPod-dark.png" 
     media="(prefers-color-scheme: dark)">
+   <source srcset="assets/media/2021/02/05/sad-iPod-light.png" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" >
   <img class="container" width="50%" src="/assets/media/2021/02/05/sad-iPod-light.png" alt="Screen of a dead iPod">
 </picture>
 
