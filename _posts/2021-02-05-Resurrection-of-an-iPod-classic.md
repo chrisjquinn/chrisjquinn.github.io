@@ -1,4 +1,4 @@
-  ---
+---
 layout: post
 title: Resurrection of an iPod classic
 ---
