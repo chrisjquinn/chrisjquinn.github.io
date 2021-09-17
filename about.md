@@ -13,3 +13,11 @@ In the past, I've been an undergrad at Warwick in Discrete Mathematics. During m
 
 
 This website serves as blog posts for some work I have recently finished, plus a few other personal interests. 
+
+------
+
+**Currently reading**: Algorithms to live by - Brian Christian & Tom Griffiths.
+
+------
+
+**PGP Key:** <a href="https://keybase.io/chrisjquinn" target="_blank">`13B7 C2EC 4ADC 691B`</a>
