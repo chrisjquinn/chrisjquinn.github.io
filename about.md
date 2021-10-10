@@ -6,10 +6,10 @@ permalink: /about/
 
 
 ## Bio
-I am a Msc student at the University of Warwick studying Cyber Security Engineering, apart of <a href="https://warwick.ac.uk/fac/sci/wmg/" target="_blank">WMG</a>. I'm interested in security, UI, graph theory and data forensics. 
 
+Currently working at <a href="https://www.elliptic.co" target="_blank">Elliptic</a> as a Cryptocurrency Intelligence Analyst. I am interested in cypto (both -ograpby and -currency), digital forensics, graph theory and basically all things cyber.
 
-In the past, I've been an undergrad at Warwick in Discrete Mathematics. During my undergrad, I served on the executive comittees for <a href="https://www.warwicklifesaving.co.uk" target="_blank">Warwick Lifesaving</a> and the <a href="https://www.brasssoc.com" target="_blank">Brass Society</a>.
+In the past, I completed a masters in Cyber Security Engineering and bachelours in Discrete Mathematics at the University of Warwick. During my undergrad, I served on the executive comittees for <a href="https://www.warwicklifesaving.co.uk" target="_blank">Warwick Lifesaving</a> and the <a href="https://www.brasssoc.com" target="_blank">Brass Society</a>.
 
 
 This website serves as blog posts for some work I have recently finished, plus a few other personal interests. 

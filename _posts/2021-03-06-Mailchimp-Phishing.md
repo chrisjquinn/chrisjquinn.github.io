@@ -3,9 +3,9 @@ layout: post
 title: Getting the phish with Mailchimp
 ---
 
-I am in a friendship group which likes to do light-hearted pranks; removing labels from food tins, covering bedrooms in tinfoil, nothing to cause any negative effects to the other. Now we are all graduated, split across the UK and never had the chance to have a graduation ceremony. With lock-down in full swing, there was an idea. Why not a lighthearted prank / [rickroll](https://www.youtube.com/watch?v=dQw4w9WgXcQ) them with an email? 
+I am in a friendship group which likes to do light-hearted pranks; removing labels from food tins, covering bedrooms in tinfoil, nothing to cause any negative effects to the other. Now we are all graduated, split across the UK and never had the chance to have a graduation ceremony. With lock-down in full swing, there was an idea. Why not a lighthearted prank / <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">rickroll</a> them with an email? 
 
-Like most subscription lists and common emails ypu see, there's the iconic smiling monkey at the footer showing it was crafted by the great provider [Mailchimp](https://mailchimp.com). This time, the email would persuade them into clicking what would be their *"Virtual Graduation"*, but would actually be a video on YouTube by [big man tyrone](https://www.youtube.com/channel/UCi7BsyeNmdfZa37Ep8kl2LQ).
+Like most subscription lists and common emails ypu see, there's the iconic smiling monkey at the footer showing it was crafted by the great provider <a href="https://mailchimp.com" target="_blank">Mailchimp.</a> This time, the email would persuade them into clicking what would be their *"Virtual Graduation"*, but would actually be a video on YouTube by <a href="https://www.youtube.com/channel/UCi7BsyeNmdfZa37Ep8kl2LQ" target="_blank">big man tyrone.</a>
 
 <!-- More -->
 
@@ -58,13 +58,13 @@ This shows as an example of how time and tailoring can make a pretty realistic p
 
 ## Actual defence
 
-Mailchimp provides some good deterrence for people actually trying to do some actual phishing. The first is [pricing](https://mailchimp.com/pricing/), to get past 2,000 people in audience money has to be paid monthly. This means associating a bank account and more identity a scammer would want to reveal. Next, the use of unique campaign IDs help identify which account has been doing such malicious activity and shut down the account. Forms are also set up to help log [abuse](https://mailchimp.com/contact/abuse/) which deters bad actors from using this further. Mailchimp provides some great ways to help protect an individual from phishing, plus keep a business stay genuine to users.
+Mailchimp provides some good deterrence for people actually trying to do some actual phishing. The first is <a href="https://mailchimp.com/pricing/" target="_blank">pricing</a>, to get past 2,000 people in audience money has to be paid monthly. This means associating a bank account and more identity a scammer would want to reveal. Next, the use of unique campaign IDs help identify which account has been doing such malicious activity and shut down the account. Forms are also set up to help log <a href="https://mailchimp.com/contact/abuse/" target="_blank">abuse</a> which deters bad actors from using this further. Mailchimp provides some great ways to help protect an individual from phishing, plus keep a business stay genuine to users.
 
 
 ------------
 
 ## A Personal Note on Phishing
-Personally, phishing as an actual form of hacking is quite far down on my list in terms of actual technical genius. In the security community too, these methods are not held in high esteem either. Phishing has just come to be such a frequent and low-hanging fruit by most scammers nowadays it has lead to **85%** of all organisations [being hit by phishing](https://securityboulevard.com/2020/12/staggering-phishing-statistics-in-2020/). Even though it is disregarded as something trivial, that statistic speaks loudly. 
+Personally, phishing as an actual form of hacking is quite far down on my list in terms of actual technical genius. In the security community too, these methods are not held in high esteem either. Phishing has just come to be such a frequent and low-hanging fruit by most scammers nowadays it has lead to **85%** of all organisations <a href="https://securityboulevard.com/2020/12/staggering-phishing-statistics-in-2020/" target="_blank">being hit by phishing</a>. Even though it is disregarded as something trivial, that statistic speaks loudly. 
 
 No one likes that feeling when they think they have just fallen for the bait. That simple click, the habitual response. I think that's what makes phishing deserve this view, you are trying to trick a victim for your gain. This is instead of trying to trick systems that don't think and feel in the same way a person would.
 

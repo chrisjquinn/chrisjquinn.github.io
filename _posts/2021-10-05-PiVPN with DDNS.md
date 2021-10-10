@@ -15,7 +15,7 @@ In this post, I show how I used a raspberry pi to become a Wireguard VPN server 
 -----
 
 ## The Briefest Definition
-When you go browse to some place on the internet, whether this be some website or a peer on a network, it is carried through the beautiful [internet protocol](https://datatracker.ietf.org/doc/html/rfc791). Whether it's HTTP or HTTPS, the usual model comes as *client* and *server*. With all the mumbo-jumbo of routing, the data essentially flows through the internet; a big fat cloud where what you want is on the other side. 
+When you go browse to some place on the internet, whether this be some website or a peer on a network, it is carried through the beautiful <a href="https://datatracker.ietf.org/doc/html/rfc791" target="_blank">internet protocol.</a> Whether it's HTTP or HTTPS, the usual model comes as *client* and *server*. With all the mumbo-jumbo of routing, the data essentially flows through the internet; a big fat cloud where what you want is on the other side. 
 
 <img class="container" width="100%" src="/assets/media/2021/10/05/vpn-1.png" alt="Client-Server connection diagram through the internet both HTTP and with VPN">
 
@@ -53,13 +53,13 @@ On the page of DNS provider, a subdomain of your own domain can help deal with t
 
 
 ### Cloudflare DDNS
-[Cloudflare](www.cloudflare.com) can allow some *preeeeeeety cool* things, but the single use item where it can help with the VPN is through what is called *Dynamic Domain Name Service* (DDNS). It tells the internet the current IP of a domain, much like a phone-book has names to phone numbers. In this analogy, the phonebook can be updated as much as we need. Thanks to an awesome project on GitHub, the DDNS updater can be downloaded on the pi with:
+<a href="https://www.cloudflare.com" target="_blank">Cloudflare</a> can allow some *preeeeeeety cool* things, but the single use item where it can help with the VPN is through what is called *Dynamic Domain Name Service* (DDNS). It tells the internet the current IP of a domain, much like a phone-book has names to phone numbers. In this analogy, the phonebook can be updated as much as we need. Thanks to an awesome project on GitHub, the DDNS updater can be downloaded on the pi with:
 
 ```shell
 git clone https://github.com/K0p1-Git/cloudflare-ddns-updater.git
 ```
 
-Logging into cloudflare and adding your site can be quite tedious ([here](https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website) is a great guide for setting one up for the first time), but once that is done the `Global API Key` is what gives the VPN the rights to update the `vpn.yourdomain.com` entry. We simply edit the file dubbed `cloudflare-template.sh` with the following items:
+Logging into cloudflare and adding your site can be quite tedious (<a href="https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website" target="_blank">here</a> is a great guide for setting one up for the first time), but once that is done the `Global API Key` is what gives the VPN the rights to update the `vpn.yourdomain.com` entry. We simply edit the file dubbed `cloudflare-template.sh` with the following items:
 
 ```shell
 auth_email="<you@yourdomain.com>"
