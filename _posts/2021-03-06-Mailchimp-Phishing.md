@@ -5,7 +5,7 @@ title: Getting the phish with Mailchimp
 
 I am in a friendship group which likes to do light-hearted pranks; removing labels from food tins, covering bedrooms in tinfoil, nothing to cause any negative effects to the other. Now we are all graduated, split across the UK and never had the chance to have a graduation ceremony. With lock-down in full swing, there was an idea. Why not a lighthearted prank / [rickroll](https://www.youtube.com/watch?v=dQw4w9WgXcQ) them with an email? 
 
-Like most subscription lists and common emails ypu see, there's the iconic smiling monkey at the footer showing it was crafted by the great provider [Mailchimp](). This time, the email would persuade them into clicking what would be their *"Virtual Graduation"*, but would actually be a video on YouTube by [big man tyrone](https://www.youtube.com/channel/UCi7BsyeNmdfZa37Ep8kl2LQ).
+Like most subscription lists and common emails ypu see, there's the iconic smiling monkey at the footer showing it was crafted by the great provider [Mailchimp](https://mailchimp.com). This time, the email would persuade them into clicking what would be their *"Virtual Graduation"*, but would actually be a video on YouTube by [big man tyrone](https://www.youtube.com/channel/UCi7BsyeNmdfZa37Ep8kl2LQ).
 
 <!-- More -->
 
