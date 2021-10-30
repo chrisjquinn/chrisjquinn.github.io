@@ -16,7 +16,7 @@ This website serves as blog posts for some work I have recently finished, plus a
 
 ------
 
-**Currently reading**: Algorithms to live by - Brian Christian & Tom Griffiths.
+**Currently reading**: Superintelligence - Nick Bostrom (Re-read).
 
 ------
 
