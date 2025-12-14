@@ -7,16 +7,16 @@ permalink: /about/
 
 ## Bio
 
-Currently working at <a href="https://www.elliptic.co" target="_blank">Elliptic</a> as a Cryptocurrency Intelligence Engineer. I am interested in cypto (both -ography and -currency), cryptocurrency investigations, digital forensics and basically all things cyber.
+Currently working at <a href="https://www.elliptic.co" target="_blank">Elliptic</a> as the Intelligence Collection Lead. I am interested in blockchain analytics, digital forensics and basically all things cyber.
 
-In the past, I completed a masters in Cyber Security Engineering and bachelours in Discrete Mathematics at the University of Warwick. During my undergrad, I served on the executive comittees for <a href="https://www.warwicklifesaving.co.uk" target="_blank">Warwick Lifesaving</a> and the <a href="https://www.brasssoc.com" target="_blank">Brass Society</a>.
+In the past, I completed a masters in Cyber Security Engineering and bachelours in Discrete Mathematics at the University of Warwick.
 
 
-This website serves as blog posts for some work I have recently finished, plus a few other personal interests. 
+This website serves as blog posts for essentially tinkering I have done, findings I am able to disclose, plus a few other personal interests. 
 
 ------
 
-**Currently reading**: Data & Goliath - Bruce Schneier.
+**Currently reading**: Dataclysm by Christian Rudder.
 
 ------
 

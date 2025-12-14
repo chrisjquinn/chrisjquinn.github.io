@@ -10,22 +10,57 @@ Few additions were made on top of this, such as a dark-mode response and small C
 
 
 ## Debugging
-Running this thing locally quite simply is a pain in the ass. This section is for the chris of the future to debug his own work as to why ruby is not working on his laptop.
+### Jekyll / Bundler Issues
+If bundle exec jekyll serve fails, it’s almost always a Ruby version mismatch.
+**Symptoms**
+You may see errors like:
+- Could not find `concurrent-ruby-x.x.x`
+- `nokogiri` requires `ruby < 3.3`
+- Bundler fails even after running `bundle install`
 
-1. Check ruby & gem PATH (and the `.zshrc` PATH homebrew recommends)
+**Root Cause**
+Jekyll (and GitHub Pages) do not yet support Ruby 3.3+.
+macOS may default to a newer system Ruby, even if rbenv is installed.
+
+Quick Fix
+1. Ensure the correct Ruby version is active This project expects **Ruby 3.2.x.**
 ```bash
-% which ruby
-/usr/local/opt/ruby/bin/ruby
-% which gem
-/usr/local/opt/ruby/bin/gem
+rbenv local 3.2.2
+ruby -v
 ```
-2. Now with bundle
+Expected output:
 ```bash
-% which bundle
-/usr/local/opt/ruby/bin/bundle
+ruby 3.2.2p...
 ```
-3. Check your bundle version: `bundle -v`
-4. Uninstall and re-install bundler with `gem uninstall bundler; gem install bundler`
-5. Update bundler `gem update bundler`
-6. Install the gems for this project `bundle install`.
-7. Cry.
+
+If it still shows 3.3.x, rbenv is not initialised in your shell.
+2. Verify rbenv is active with `which ruby`. Expected: `~/.rbenv/shims/ruby` 
+
+If not, ensure your shell config `(~/.zshrc)` includes:
+```bash
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init - zsh)"
+```
+Then reload:
+```bash
+source ~/.zshrc
+```
+3. Reinstall dependencies cleanly
+Once the correct Ruby version is active:
+```bash
+rm -f Gemfile.lock
+bundle install
+bundle exec jekyll serve
+```
+
+**Notes**
+Warnings about `DidYouMean` deprecations are harmless
+Conda environments (`(base)` in prompt) **can override** Ruby — if issues persist, consider disabling auto-activation:
+`conda config --set auto_activate_base false`
+
+**Sanity Check**
+```bash
+ruby -v        # should be 3.2.x
+bundle -v
+bundle exec jekyll serve
+```
